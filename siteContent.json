@@ -1,0 +1,170 @@
+{
+  "navigation": {
+    "brand": "K. NAVLE / 2026",
+    "links": [
+      { "label": "Focus", "href": "#focus" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "titleLine1": "Web",
+    "titleLine2": "Developer",
+    "description": "Building robust, scalable, and performance-driven web applications with a focus on clean code and elegant architecture.",
+    "status": "Open to New Projects",
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000"
+  },
+  "skills": [
+    { "icon": "Terminal", "name": "System Architecture" },
+    { "icon": "Code2", "name": "Frontend Engineering" },
+    { "icon": "Layout", "name": "API Development" },
+    { "icon": "Palette", "name": "UX Interaction" }
+  ],
+  "appreciations": [
+    {
+      "id": "csb-analysis",
+      "subject": "Analysis on OTP -SMS (Karix SMS Gateway)",
+      "emails": [
+        {
+          "from": "Vinod Kumar",
+          "role": "Head - Application Support Group",
+          "to": "Karthikeyan V; snehalpitrola; Karan Vilas Navle",
+          "cc": "Rajesh Choudhary; Deepak Bansilal Thapar; SOHANTANAJJIBORGE; AMIT SINGH THOKCHOM; Prashant Sinkar; Shama Jaidev Talreja; Naveen John; Rakesh Kullbhooshan Chandhok",
+          "date": "31 March 2023 03:02 PM",
+          "period": "01-Mar-23 To 26-Mar-23 (KARIX SMS Gateway)",
+          "performanceSummary": [
+            { "customerType": "NRI", "range03Min": "1,34,901", "success": "1,36,882", "failed": "38,306", "failedPercent": "21.87%", "total": "1,75,188" },
+            { "customerType": "Residential", "range03Min": "1,03,54,383", "success": "1,12,32,030", "failed": "6,45,760", "failedPercent": "5.44%", "total": "1,18,77,790" },
+            { "customerType": "Grand Total", "range03Min": "1,04,89,284", "success": "1,13,68,912", "failed": "6,84,066", "failedPercent": "5.68%", "total": "1,20,52,978" }
+          ],
+          "failureAnalysis": [
+            { "category": "DLT Template Filter", "count": "406", "impact": "Filtering Error" },
+            { "category": "DLT Template ID Fail", "count": "54,559", "impact": "Registration Issue" },
+            { "category": "Intl. Invalid Mobile Length", "count": "21,969", "impact": "Format Violation" }
+          ],
+          "metrics": [
+            { "label": "Success Metric", "value": "94.32%", "sublabel": "Delivery Rate" },
+            { "label": "Throughput", "value": "4.63L", "sublabel": "Alerts / Day" }
+          ],
+          "quote": "Thanks Karan for pulling out data from Karix Portal and in analysis. Team will have joint call with Karix and Support team (Chennai & Mumbai) to address priority items.",
+          "signature": {
+            "name": "Vinod Kumar",
+            "role": "Head - Application Support Group",
+            "company": "CSB BANK",
+            "auditTag": "Internal Audit 2023"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ifl-appreciation",
+      "subject": "Appreciation for KARAN",
+      "emails": [
+        {
+          "from": "Karan Navle",
+          "to": "Sunil Shyamlal Kanojia",
+          "cc": "Lijo John; Vivek Gajwani; Atul sigh; Vaibhav Jindal; Vaibhav Jindal; Dipen Shah; vikram gite; Devendra Chaukekar",
+          "date": "Saturday, May 14, 2022 12:08 PM",
+          "body": "Hi Sir,\n\nThank You Sir. Won't be able to do this without our team.",
+          "signature": {
+            "name": "Karan Navle",
+            "role": "Application Support - Rapid Support Team",
+            "company": "IndiaFirst Life Insurance Company LTD"
+          }
+        },
+        {
+          "from": "Sunil Shyamlal Kanojia",
+          "role": "AVP – IT Business Application",
+          "to": "Devendra Chaukekar; Karan Navle",
+          "cc": "karan.navle; Lijo John; Vivek Gajwani; Atul sigh; Vaibhav Jindal; Vaibhav Jindal; Dipen Shah; vikram gite; lijo.john",
+          "date": "Wednesday, December 30, 2020 11:36 AM",
+          "headline": "Superb Karan, Keep it up.",
+          "body": "And thanks to entire team for all their support.",
+          "signature": {
+            "name": "Sunil Kanojia",
+            "role": "Assistant Vice President – IT Business Application",
+            "company": "IndiaFirst Life Insurance Company LTD"
+          }
+        },
+        {
+          "from": "Devendra Chaukekar",
+          "role": "Team Lead – Rapid support",
+          "to": "Sunil Shyamlal Kanojia; Karan Navle; Vivek Gajwani",
+          "cc": "karan.navle; Lijo John; Vivek Gajwani; Atul sigh; Vaibhav Jindal; Vaibhav Jindal; Dipen Shah; vikram gite; Lijo John",
+          "date": "Wednesday, December 29, 2020 7:27 PM",
+          "body": "Hi Karan,\n\nGood work.\n\nLooping Dipen, Vikram and Atul",
+          "signature": {
+            "name": "Devendra Chaukekar",
+            "role": "Team Lead – Rapid support",
+            "company": "IndiaFirst Life Insurance Company LTD"
+          }
+        },
+        {
+          "from": "Vivek Gajwani",
+          "role": "Manager- IT Applications",
+          "to": "Sunil Shyamlal Kanojia; Devendra Chaukekar; Lijo John",
+          "cc": "karan.navle; Vaibhav Jindal; Vaibhav Jindal; Lijo John",
+          "date": "Tuesday, December 29, 2020 6:31 PM",
+          "body": "Superb Karan for working end to end with Miral shah (escalated case) and getting it closed. Much appreciated ! Looking for similar commitment in future",
+          "signature": {
+            "name": "Vivek Gajwani",
+            "role": "Manager- IT Applications",
+            "company": "IndiaFirst Life Insurance Company LTD"
+          }
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "year": "2025 — PRESENT",
+      "company": "Cloud Website Solutions",
+      "role": "Application Developer",
+      "description": "Developing robust dashboard platforms with deep API integrations and modernizing legacy web architectures for professional services."
+    },
+    {
+      "company": "Clover Infotech",
+      "year": "2019 — 2024",
+      "isGroup": true,
+      "subItems": [
+        {
+          "year": "2023 — 2024",
+          "company": "CSB Bank LTD",
+          "role": "Technical Associate, L2",
+          "description": "Managing mission-critical banking application updates and proactive system health monitoring to ensure high availability and user proficiency.",
+          "appreciationId": "csb-analysis"
+        },
+        {
+          "year": "2022 — 2023",
+          "company": "Axis Bank",
+          "role": "Application Support, L1-L2",
+          "description": "Collaborating with cross-functional teams to optimize portal performance and documenting complex troubleshooting procedures for enterprise platforms."
+        },
+        {
+          "year": "2020 — 2021",
+          "company": "IndiaFirstLife Insurance",
+          "role": "Application Support, L1",
+          "description": "Analyzing product supportability and conducting intensive root-cause analysis to reduce system lag and improve overall platform speed.",
+          "appreciationId": "ifl-appreciation"
+        }
+      ]
+    }
+  ],
+  "about": {
+    "sectionNumber": "03 / ABOUT",
+    "highlight": "I specialize in architecting high-performance data pipelines and resilient API orchestration, bridging the gap between complex backend logic and reactive interfaces.",
+    "bio": "With a background in mission-critical support for major financial institutions like IndiaFirst Life and CSB Bank, I've mastered the art of root-cause analysis and performance tuning. Today, I focus on building stateless, event-driven architectures and optimizing large-scale eCommerce engines using GraphQL and custom JSON pipelines."
+  },
+  "contact": {
+    "sectionNumber": "04 / CONTACT",
+    "headline": "LET'S TALK.",
+    "email": "karannavlespin@gmail.com",
+    "socials": [
+      { "icon": "Github", "label": "GitHub", "href": "https://github.com/KaranN568" },
+      { "icon": "Linkedin", "label": "LinkedIn", "href": "https://in.linkedin.com/in/karan-navle-841404260" },
+      { "icon": "Mail", "label": "Email", "href": "mailto:karannavlespin@gmail.com" }
+    ],
+    "footerNote": "DESIGNED & DEVELOPED BY K.NAVLE IN 2026. BUILT WITH REACT & TAILWIND."
+  }
+}

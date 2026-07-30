@@ -1,0 +1,369 @@
+[
+  {
+    "id": "atlas-ai-catalog",
+    "title": "Atlas",
+    "category": "AI & Automation",
+    "status": "active",
+    "statusLabel": "CURRENTLY ACTIVE",
+    "date": "2025 \u2013 Present",
+    "description": "AI-assisted product catalog intelligence platform for validation, classification, auditing and correction.",
+    "techStack": [
+      "Python",
+      "Ollama",
+      "GraphQL",
+      "JSON",
+      "Shopify API"
+    ],
+    "image": "assets/img/atlas.png",
+    "gallery": [
+      "assets/img/atlas.png"
+    ],
+    "problem": "Vendor catalogs contained inconsistent classifications, missing metadata and manual review bottlenecks.",
+    "overview": "Unified product classification, JSON validation, image validation and Shopify correction workflows into a single pipeline.",
+    "progress": 90,
+    "progressStage": "Active Development",
+    "featuresCompleted": [
+      "AI product classification",
+      "Confidence scoring",
+      "Keyword rule engine",
+      "JSON validation",
+      "Image validation",
+      "Automated audit reports",
+      "Shopify correction workflow",
+      "Manual collection validation"
+    ],
+    "challenges": [
+      "Balancing AI predictions with deterministic rules.",
+      "Reducing false positive classifications.",
+      "Maintaining catalog consistency across vendors.",
+      "Optimizing local LLM execution."
+    ],
+    "roadmap": [
+      "Vision-assisted validation",
+      "Feedback learning",
+      "Batch inference optimization",
+      "Expanded product taxonomy"
+    ],
+    "logs": [
+      {
+        "date": "Jul 2026",
+        "task": "Built Ollama-based jewelry classifier.",
+        "tech": "Python"
+      },
+      {
+        "date": "Jul 2026",
+        "task": "Created audit and correction pipeline.",
+        "tech": "Python, GraphQL"
+      },
+      {
+        "date": "Jul 2026",
+        "task": "Added JSON and image validation.",
+        "tech": "Python"
+      }
+    ]
+  },
+  {
+    "id": "forge-pricing",
+    "title": "Forge",
+    "category": "Pricing Engine",
+    "status": "active",
+    "statusLabel": "CURRENTLY ACTIVE",
+    "date": "Jul 2026",
+    "description": "Configuration-driven pricing engine for jewelry combinations.",
+    "techStack": [
+      "Python",
+      "SQL Server",
+      "REST API",
+      "JSON"
+    ],
+    "image": "assets/img/forge.png",
+    "gallery": [
+      "assets/img/forge.png"
+    ],
+    "problem": "Manual pricing calculations could not scale across every jewelry configuration.",
+    "overview": "Generates combinations, calls pricing APIs, stores results and minimizes redundant processing.",
+    "progress": 92,
+    "progressStage": "Optimization",
+    "featuresCompleted": [
+      "Combination generator",
+      "Pricing worker",
+      "CLI",
+      "Conditional updates",
+      "Duplicate detection",
+      "Index optimization",
+      "API integration",
+      "JSON configuration"
+    ],
+    "challenges": [
+      "Large combination counts",
+      "Database performance",
+      "Skipping unchanged records",
+      "Worker throughput"
+    ],
+    "roadmap": [
+      "JSON-first architecture",
+      "Parallel workers",
+      "Monitoring",
+      "Retry queues"
+    ],
+    "logs": [
+      {
+        "date": "Jul 2026",
+        "task": "Created pricing generator.",
+        "tech": "Python"
+      },
+      {
+        "date": "Jul 2026",
+        "task": "Integrated pricing API.",
+        "tech": "REST"
+      },
+      {
+        "date": "Jul 2026",
+        "task": "Optimized SQL updates and indexes.",
+        "tech": "SQL Server"
+      }
+    ]
+  },
+  {
+    "id": "nexus-sync",
+    "title": "Nexus",
+    "category": "Commerce Integration",
+    "status": "completed",
+    "statusLabel": "COMPLETED",
+    "date": "2025 \u2013 2026",
+    "description": "Commerce synchronization platform for products, inventory, images and metadata.",
+    "techStack": [
+      "Python",
+      "Shopify GraphQL",
+      "REST API",
+      "JSON"
+    ],
+    "image": "assets/img/nexus.png",
+    "gallery": [
+      "assets/img/nexus.png"
+    ],
+    "problem": "Large vendor catalogs required reliable synchronization and throttling.",
+    "overview": "Unified Benchmark imports, Shopify synchronization and vendor normalization.",
+    "progress": 100,
+    "progressStage": "Production",
+    "featuresCompleted": [
+      "Product sync",
+      "Inventory sync",
+      "Image sync",
+      "Metafields",
+      "Vendor filters",
+      "Rate limiting",
+      "Normalization",
+      "Retry logic"
+    ],
+    "challenges": [
+      "API rate limits",
+      "Image consistency",
+      "Vendor normalization",
+      "Bulk updates"
+    ],
+    "roadmap": [
+      "Marketplace connectors",
+      "Monitoring",
+      "Webhook expansion"
+    ],
+    "logs": [
+      {
+        "date": "2025",
+        "task": "Created Benchmark importer.",
+        "tech": "Python"
+      },
+      {
+        "date": "2026",
+        "task": "Implemented Shopify GraphQL synchronization.",
+        "tech": "GraphQL"
+      },
+      {
+        "date": "2026",
+        "task": "Added local image support.",
+        "tech": "Python"
+      }
+    ]
+  },
+  {
+    "id": "pulse-performance",
+    "title": "Pulse",
+    "category": "Performance Engineering",
+    "status": "completed",
+    "statusLabel": "COMPLETED",
+    "date": "2025 \u2013 2026",
+    "description": "Performance optimization across SQL Server and retailer messaging platform.",
+    "techStack": [
+      "VB.NET",
+      "SQL Server",
+      "JavaScript"
+    ],
+    "image": "assets/img/pulse.png",
+    "gallery": [
+      "assets/img/pulse.png"
+    ],
+    "problem": "Million-row datasets caused slow response times.",
+    "overview": "Optimized queries, indexes, caching and server-side processing.",
+    "progress": 100,
+    "progressStage": "Production",
+    "featuresCompleted": [
+      "CTEs",
+      "OUTER APPLY",
+      "Indexes",
+      "Caching",
+      "Server-side DataTables",
+      "Pagination",
+      "Batch processing",
+      "Reduced DB writes"
+    ],
+    "challenges": [
+      "1M+ rows",
+      "Execution plans",
+      "Write performance",
+      "Caching strategy"
+    ],
+    "roadmap": [
+      "Redis",
+      "Monitoring",
+      "Further indexing"
+    ],
+    "logs": [
+      {
+        "date": "2025",
+        "task": "Optimized conversation queries.",
+        "tech": "SQL"
+      },
+      {
+        "date": "2025",
+        "task": "Implemented server-side DataTables.",
+        "tech": "VB.NET"
+      },
+      {
+        "date": "2026",
+        "task": "Added indexes and batching.",
+        "tech": "SQL Server"
+      }
+    ]
+  },
+  {
+    "id": "canvas-platform",
+    "title": "Canvas",
+    "category": "Retail Platform",
+    "status": "active",
+    "statusLabel": "CURRENTLY ACTIVE",
+    "date": "2025 \u2013 Present",
+    "description": "Retail messaging platform enhancements and engineering portfolio.",
+    "techStack": [
+      "VB.NET",
+      "JavaScript",
+      "Bootstrap",
+      "ApexCharts"
+    ],
+    "image": "assets/img/canvas.png",
+    "gallery": [
+      "assets/img/canvas.png"
+    ],
+    "problem": "Needed reusable UI components and improved user experience.",
+    "overview": "Modernized dashboards, messaging workflows and engineering portfolio presentation.",
+    "progress": 88,
+    "progressStage": "Continuous Improvement",
+    "featuresCompleted": [
+      "Dashboard",
+      "Calendar",
+      "Analytics",
+      "AJAX modules",
+      "Current Focus",
+      "Case Study",
+      "Responsive UI",
+      "Animations"
+    ],
+    "challenges": [
+      "Legacy code",
+      "Responsive layouts",
+      "Performance",
+      "UX consistency"
+    ],
+    "roadmap": [
+      "Live GitHub",
+      "More case studies",
+      "Developer blog"
+    ],
+    "logs": [
+      {
+        "date": "2025",
+        "task": "Modernized dashboard.",
+        "tech": "JavaScript"
+      },
+      {
+        "date": "2026",
+        "task": "Built engineering journal.",
+        "tech": "React"
+      },
+      {
+        "date": "2026",
+        "task": "Refined portfolio UX.",
+        "tech": "Tailwind"
+      }
+    ]
+  },
+  {
+    "id": "relay-tooling",
+    "title": "Relay",
+    "category": "Developer Tooling",
+    "status": "active",
+    "statusLabel": "ACTIVE",
+    "date": "2026",
+    "description": "Internal tooling, Node development server and shipping workflow automation.",
+    "techStack": [
+      "Node.js",
+      "Express",
+      "Python",
+      "PHP",
+      "WordPress"
+    ],
+    "image": "assets/img/relay.png",
+    "gallery": [
+      "assets/img/relay.png"
+    ],
+    "problem": "Development and operational workflows were fragmented.",
+    "overview": "Built automation utilities, local development tools and shipping integrations.",
+    "progress": 80,
+    "progressStage": "Expanding",
+    "featuresCompleted": [
+      "Express server",
+      "Python execution",
+      "Vite integration",
+      "Shipping automation",
+      "GLS",
+      "UniUni",
+      "Debug tooling"
+    ],
+    "challenges": [
+      "ESM compatibility",
+      "Carrier APIs",
+      "Deployment"
+    ],
+    "roadmap": [
+      "Plugin architecture",
+      "CI automation",
+      "Health dashboard"
+    ],
+    "logs": [
+      {
+        "date": "2026",
+        "task": "Integrated Express with Python scripts.",
+        "tech": "Node.js"
+      },
+      {
+        "date": "2026",
+        "task": "Enhanced TGShip workflows.",
+        "tech": "PHP"
+      },
+      {
+        "date": "2026",
+        "task": "Resolved ESM/CommonJS issues.",
+        "tech": "Node.js"
+      }
+    ]
+  }
+]
