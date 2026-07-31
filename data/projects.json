@@ -1,0 +1,231 @@
+[
+  {
+    "id": "ai-product-engine",
+    "title": "AI Product Engine",
+    "category": "AI & Automation",
+    "status": "active",
+    "statusLabel": "CURRENTLY ACTIVE",
+    "date": "2026 – Present",
+    "description": "Building an AI-powered product automation pipeline for jewelry retailers to parse raw SKU data, auto-categorize gemstone specifications, and execute multi-channel catalog sync.",
+    "techStack": ["Python", "OpenAI API", "SQL Server", "Shopify API", "FastAPI"],
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200",
+    "gallery": [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "problem": "Manual jewelry cataloging requires over 25 minutes per SKU due to multi-tier metal weight calculations, diamond clarity classifications, and complex custom option variants.",
+    "overview": "The AI Product Engine automates the entire ingestion pipeline from vendor CSVs and raw product imagery to fully structured Shopify GraphQL payloads with zero manual entry.",
+    "progress": 85,
+    "progressStage": "Active Optimization & Vendor Testing",
+    "featuresCompleted": [
+      "Vision-based auto-tagging for diamond cut, clarity rating, and metal setting type.",
+      "Automated JSON payload formatting for Shopify GraphQL productBulkCreate API.",
+      "SQL Server staging queue with exponential backoff retry mechanism for API rate-limiting.",
+      "Stateless WebHook listener for instant catalog stock sync across ERP endpoints."
+    ],
+    "challenges": [
+      "Eliminating AI hallucination when interpreting subtle metal color tones (e.g. 14k Rose vs Yellow Gold).",
+      "Handling rate limits across concurrent multi-location Shopify GraphQL mutations."
+    ],
+    "roadmap": [
+      "Fine-tuning localized model for custom pricing formulas based on daily gold spot rates.",
+      "Adding multi-tenant ERP adapter for seamless inventory integration."
+    ],
+    "logs": [
+      { "date": "10 Apr 2026 – 28 Apr 2026", "task": "Implemented OpenAI Vision API prompt chain to extract diamond carat weight from certificate scans.", "tech": "Python, OpenAI API" },
+      { "date": "01 May 2026 – 15 May 2026", "task": "Optimized bulk product creation pipeline using Shopify GraphQL staging queues.", "tech": "Python, GraphQL" },
+      { "date": "18 May 2026 – 05 Jun 2026", "task": "Built automated image background removal and asset CDN upload pipeline.", "tech": "Python, FastAPI" }
+    ]
+  },
+  {
+    "id": "ring-studio-pricing",
+    "title": "Ring Studio Pricing",
+    "category": "FinTech & Logic",
+    "status": "active",
+    "statusLabel": "CURRENTLY ACTIVE",
+    "date": "2025 – 2026",
+    "description": "Automated margin calculations, gold spot rate synchronization, and dynamic jewelry pricing engine across 10,000+ variants.",
+    "techStack": ["VB.NET", "C#", "SQL Server", "React", "Live Metals API"],
+    "image": "assets/img/Advanced Logic.png",
+    "gallery": [
+      "assets/img/Advanced Logic.png",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "problem": "Fluctuating gold and diamond market prices required instant site-wide recalculations across 10,000+ ring variants without causing database locking or slowing site checkout.",
+    "overview": "A high-throughput dynamic pricing calculation engine that ingests real-time metal spot prices and calculates precise retail margins down to the gram.",
+    "progress": 90,
+    "progressStage": "Production Scaling",
+    "featuresCompleted": [
+      "Real-time gold & platinum spot rate API ingestion with fallback memory caching.",
+      "Formula-driven pricing engine taking metal purity (10k/14k/18k/Platinum) and gram weight into account.",
+      "AJAX dynamic price updates on product detail pages without full page refreshes.",
+      "Normalized SKU database tables eliminating redundant pricing records."
+    ],
+    "challenges": [
+      "Ensuring transactional pricing lock during customer checkout while spot market prices fluctuate.",
+      "Reducing calculation latency below 15ms per variant combination."
+    ],
+    "roadmap": [
+      "Multi-currency pricing engine with real-time exchange rate normalization.",
+      "Automated margin variance alerts for finance managers."
+    ],
+    "logs": [
+      { "date": "01 Jul 2025 – 15 Jul 2025", "task": "Built JSON ingestion pipelines for product data, parsing nested metal, stone, and pricing structures.", "tech": "VB.NET, C#, SQL Server" },
+      { "date": "16 Jul 2025 – 30 Jul 2025", "task": "Implemented SKU-based insert/update logic with validation and vendor exclusion filtering.", "tech": "C#, SQL Server" },
+      { "date": "01 Aug 2025 – 18 Aug 2025", "task": "Designed normalization layer for metal color, stone grouping (natural vs lab), and pricing consistency.", "tech": "C#, VB.NET" }
+    ]
+  },
+  {
+    "id": "shopify-sync-engine",
+    "title": "Shopify Sync Engine",
+    "category": "Infrastructure",
+    "status": "completed",
+    "statusLabel": "COMPLETED",
+    "date": "2025 – 2026",
+    "description": "Stateless real-time catalog & inventory synchronization middleware bridging legacy ERP databases with Shopify REST/GraphQL APIs.",
+    "techStack": ["Python", "GraphQL", "REST APIs", "SQL Server", "WebMethods"],
+    "image": "assets/img/API Orchestration.png",
+    "gallery": [
+      "assets/img/API Orchestration.png",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "problem": "Siloed legacy inventory systems caused overselling on peak seasonal traffic due to delayed stock synchronization.",
+    "overview": "An event-driven API middleware layer that synchronizes orders, inventory adjustments, and catalog updates bi-directionally between legacy SQL Server databases and Shopify Plus.",
+    "progress": 100,
+    "progressStage": "Deployed & Production Proven",
+    "featuresCompleted": [
+      "GraphQL bulk mutation pipeline for multi-location inventory sync.",
+      "HMAC-verified Webhook endpoints for real-time order stock deductions.",
+      "Fluid Pay and Stripe API integration for automated invoice payment link generation.",
+      "Logistics tracking integration with UniUni and GLS APIs."
+    ],
+    "challenges": [
+      "Gracefully handling leaky bucket rate limits on Shopify GraphQL endpoints during high-volume sales.",
+      "Ensuring idempotent execution for webhooks to prevent duplicate stock updates."
+    ],
+    "roadmap": [
+      "Adding Amazon Marketplace and eBay API sync connectors.",
+      "Implementing real-time WebSockets activity logging dashboard."
+    ],
+    "logs": [
+      { "date": "10 Sep 2025 – 22 Sep 2025", "task": "Integrated Shopify REST APIs for product creation, updates, and variant synchronization.", "tech": "VB.NET, REST APIs" },
+      { "date": "23 Sep 2025 – 08 Oct 2025", "task": "Implemented Shopify GraphQL queries for selective product data retrieval.", "tech": "Python, GraphQL" },
+      { "date": "20 Nov 2025 – 05 Dec 2025", "task": "Worked with logistics APIs including UniUni and GLS for shipment processing.", "tech": "C#, REST APIs" }
+    ]
+  },
+  {
+    "id": "portfolio-website",
+    "title": "Portfolio Website",
+    "category": "Frontend Architecture",
+    "status": "active",
+    "statusLabel": "CURRENTLY ACTIVE",
+    "date": "2026",
+    "description": "Editorial minimalism developer portfolio featuring an active developer journal, interactive CSB Bank & IndiaFirst Life appreciation log, and dynamic theme system.",
+    "techStack": ["React", "TypeScript", "Tailwind CSS", "Motion"],
+    "image": "assets/img/Reactive Systems.png",
+    "gallery": [
+      "assets/img/Reactive Systems.png",
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "problem": "Generic template portfolios fail to convey active software development practices, system architecture depth, or real engineering achievements.",
+    "overview": "A bespoke, Apple/Vercel-inspired portfolio that functions as a live development notebook, showcasing active engineering projects, metrics, and deep case studies.",
+    "progress": 95,
+    "progressStage": "Active Refinement & Content Log",
+    "featuresCompleted": [
+      "Split-pane live development journal with synchronized hover previews.",
+      "Full-screen case study modal with engineering logs, progress indicators, and roadmap.",
+      "Interactive CSB Bank OTP SMS performance log viewer.",
+      "Adaptive light/dark monochrome theme with smooth Framer Motion transitions."
+    ],
+    "challenges": [
+      "Maintaining 60fps layout shifts and sticky scroll positioning across desktop and mobile viewports.",
+      "Eliminating horizontal scroll overflow and ensuring pixel-perfect typographic hierarchy."
+    ],
+    "roadmap": [
+      "Interactive CLI modal allowing visitors to inspect system logs directly.",
+      "Live GitHub activity stream integration."
+    ],
+    "logs": [
+      { "date": "10 Jan 2026 – 25 Jan 2026", "task": "Developed AJAX-based interactions and stateless UI states.", "tech": "JavaScript, React" },
+      { "date": "26 Jan 2026 – 10 Feb 2026", "task": "Built stateless backend endpoints (WebMethods) for real-time updates.", "tech": "VB.NET, TS" },
+      { "date": "26 Jul 2026", "task": "Redesigned Current Focus into a Live Development Journal with 2-column layout and Case Study modal.", "tech": "React, Tailwind, Motion" }
+    ]
+  },
+  {
+    "id": "performance-data-ops",
+    "title": "Performance & Data Ops",
+    "category": "Database & Optimization",
+    "status": "completed",
+    "statusLabel": "COMPLETED",
+    "date": "2025 – 2026",
+    "description": "Server-side pagination, batch query optimization, and SQL indexing pipeline reducing catalog load time by 75%.",
+    "techStack": ["SQL Server", "VB.NET", "C#", "JavaScript"],
+    "image": "assets/img/Performance Ops.png",
+    "gallery": [
+      "assets/img/Performance Ops.png",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "problem": "Client-side table rendering choked on 50,000+ SKU records, causing browser freezes and unacceptable API latency.",
+    "overview": "Engineered server-side SQL pagination with OFFSET-FETCH query optimization and reduced redundant payload overhead.",
+    "progress": 100,
+    "progressStage": "Deployed & Optimized",
+    "featuresCompleted": [
+      "Implemented server-side DataTables processing (pagination, sorting, filtering) using SQL-based queries.",
+      "Optimized large dataset handling through batch processing and reduced redundant API calls.",
+      "Handled API rate limiting constraints and optimized request batching strategies.",
+      "Improved sync performance by minimizing redundant updates and optimizing partial data refresh logic."
+    ],
+    "challenges": [
+      "Creating non-clustered SQL indexes without degrading insert performance on write-heavy logs.",
+      "Preventing memory leaks during long-running background batch updates."
+    ],
+    "roadmap": [
+      "Adding Redis caching layer for frequently queried SKU lookups.",
+      "Automated DB execution plan monitoring."
+    ],
+    "logs": [
+      { "date": "01 Dec 2025 – 15 Dec 2025", "task": "Implemented server-side DataTables processing using SQL-based queries.", "tech": "VB.NET, SQL Server" },
+      { "date": "16 Dec 2025 – 05 Jan 2026", "task": "Optimized large dataset handling through batch processing.", "tech": "C#, SQL Server" },
+      { "date": "22 Jan 2026 – 05 Feb 2026", "task": "Improved sync performance by optimizing partial data refresh logic.", "tech": "C#, SQL Server" }
+    ]
+  },
+  {
+    "id": "image-processing-pipeline",
+    "title": "Image Processing Pipeline",
+    "category": "Media & Automation",
+    "status": "research",
+    "statusLabel": "IN RESEARCH",
+    "date": "2026 – Research",
+    "description": "Automated media processing pipeline for batch video conversions, background removal, and asset CDN optimization.",
+    "techStack": ["Python", "FFmpeg", "OpenCV", "AWS S3"],
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200",
+    "gallery": [
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "problem": "High-resolution jewelry video renders were uncompressed, causing slow page loads on mobile web browsers.",
+    "overview": "Researching an automated serverless media processing pipeline using Python and FFmpeg to auto-generate WebP/WebM optimized video variants upon S3 upload.",
+    "progress": 40,
+    "progressStage": "Prototype & Benchmark Phase",
+    "featuresCompleted": [
+      "Python automation scripts for batch MP4/WebM conversion and sizing.",
+      "Automated metadata stripping and WEBP lossy compression.",
+      "S3 bucket trigger workflow for background video encoding."
+    ],
+    "challenges": [
+      "Balancing GPU processing costs against conversion turnaround time for 4K video renders.",
+      "Preserving fine diamond reflection detail during video compression."
+    ],
+    "roadmap": [
+      "Cloudflare Workers edge execution for instant on-the-fly image transformations.",
+      "WebAssembly client-side preview rendering."
+    ],
+    "logs": [
+      { "date": "05 Jan 2026 – 20 Jan 2026", "task": "Developed Python scripts for media processing and automation workflows (video handling, conversions).", "tech": "Python, FFmpeg" },
+      { "date": "01 May 2026 – 20 May 2026", "task": "Benchmarked lossy compression ratios for WebP vs WebM video previews.", "tech": "Python, OpenCV" }
+    ]
+  }
+]
