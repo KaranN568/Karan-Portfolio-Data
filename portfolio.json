@@ -41,62 +41,120 @@
     {
       "id": "ai-catalog",
       "number": "01",
-      "category": "AI & Catalog Engineering",
-      "title": "AI Product Catalog Automation",
-      "tagline": "Structured catalog enrichment with AI-assisted workflows",
-      "description": "An application workflow exploring product categorization, product-data enrichment, and extraction of structured attributes from catalog information and imagery.",
-      "technologies": ["Python", "FastAPI", "REST APIs", "PostgreSQL", "JSON"],
-      "simulatedAddress": "catalog-demo.example"
+      "category": "AI Applications & Product Discovery",
+      "title": "AI-Powered Jewelry Discovery Assistant",
+      "tagline": "A retailer-aware conversational experience for product discovery",
+      "description": "An AI-assisted jewelry discovery experience combining a chat interface with a Python backend, retrieval-based knowledge, and retailer-specific configuration. The work includes API development, product discovery flows, knowledge-source loading, and lead capture. Retailer isolation and knowledge-loading behavior are treated as ongoing engineering concerns rather than assumed-complete features.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Embeddings",
+        "REST APIs",
+        "JSON"
+      ],
+      "simulatedAddress": "jewelry-assistant-demo.example",
+      "status": "In Progress",
+      "currentFocus": "Improving retailer-specific configuration, knowledge loading, retrieval isolation, and chat-to-lead workflows."
     },
     {
       "id": "product-sync",
       "number": "02",
       "category": "E-commerce Integrations",
       "title": "Shopify & WordPress Product Synchronization",
-      "tagline": "Modernizing a product-sync service from VB.NET to Python",
-      "description": "A product and inventory synchronization service connecting e-commerce platforms and vendor data. The work includes moving established synchronization logic from a VB.NET application into Python, improving the service structure, and developing a frontend to manage and monitor synchronization workflows. Public-facing examples use fictional store and product data.",
-      "technologies": ["Python", "VB.NET", "Shopify API", "WordPress", "WooCommerce", "REST APIs", "JSON", "SQL"],
-      "simulatedAddress": "store-sync-demo.example"
+      "tagline": "Modernizing a legacy synchronization service from VB.NET to Python",
+      "description": "A product and inventory synchronization service connecting Shopify, WordPress/WooCommerce, and vendor data. Current work includes transferring established synchronization logic from VB.NET into Python, organizing reusable sync workflows, handling product and inventory rules, and building a frontend for managing and monitoring the process. An important rule is to prevent sold inventory from being uploaded even if a product is otherwise marked for upload. Public-facing examples should use fictional store and product data.",
+      "technologies": [
+        "VB.NET",
+        "Python",
+        "Shopify API",
+        "WordPress",
+        "WooCommerce",
+        "REST APIs",
+        "SQL",
+        "JSON"
+      ],
+      "simulatedAddress": "store-sync-demo.example",
+      "status": "In Progress",
+      "currentFocus": "Python migration and frontend development, while preserving existing synchronization rules and safeguards."
     },
     {
       "id": "pricing",
       "number": "03",
       "category": "Pricing & Workflow Automation",
-      "title": "Product Pricing Automation",
-      "tagline": "Rule-based pricing calculations and repeatable pricing workflows",
-      "description": "A pricing workflow that applies configurable product attributes and calculation rules to generate consistent prices, with a focus on traceable logic and maintainable configuration.",
-      "technologies": ["Python", "REST APIs", "PostgreSQL", "JSON", "Automation"],
-      "simulatedAddress": "pricing-demo.example"
+      "title": "Forge — Configurable Product Pricing Engine",
+      "tagline": "Generate consistent prices from product attributes and configurable rules",
+      "description": "A configurable pricing engine for products with multiple attribute combinations. The workflow models combinations such as size, metal, purity, shape, stone type, and carat weight, then applies repeatable calculation rules. Configuration and pricing generation are designed to be maintainable, with JSON-based configuration being explored to reduce unnecessary database load. Forge is the public portfolio alias; internal application names are intentionally omitted.",
+      "technologies": [
+        "Python",
+        "PostgreSQL",
+        "JSON",
+        "REST APIs",
+        "Pricing Rules",
+        "Automation"
+      ],
+      "simulatedAddress": "forge-pricing-demo.example",
+      "status": "In Progress",
+      "currentFocus": "Refining pricing configuration, combination generation, and calculation rules."
     },
     {
       "id": "inventory",
       "number": "04",
-      "category": "Supply Chain & Data Synchronization",
-      "title": "Inventory & Vendor Synchronization",
-      "tagline": "Normalize vendor feeds and reconcile product data",
-      "description": "Data synchronization workflows for vendor catalogs and inventory feeds, including normalization, SKU matching, filtering, and updates across connected systems.",
-      "technologies": ["Python", "SQL Server", "REST APIs", "CSV", "JSON", "Background Jobs"],
-      "simulatedAddress": "inventory-demo.example"
+      "category": "Catalog Data & Synchronization",
+      "title": "Vendor Catalog & Inventory Reconciliation",
+      "tagline": "Normalize vendor feeds and keep product data consistent",
+      "description": "Data-processing and synchronization workflows for vendor catalogs and inventory feeds. The work covers SKU matching, field normalization, variant and image mapping, active/inactive filtering, upload eligibility, and repeatable batch processing across connected commerce systems.",
+      "technologies": [
+        "Python",
+        "SQL Server",
+        "REST APIs",
+        "CSV",
+        "JSON",
+        "Background Jobs"
+      ],
+      "simulatedAddress": "inventory-demo.example",
+      "status": "Ongoing",
+      "currentFocus": "Improving normalization, variant mapping, and upload eligibility rules."
     },
     {
       "id": "shipping",
       "number": "05",
       "category": "Shipping & Platform Integrations",
-      "title": "Shipping Rate & Carrier Integrations",
-      "tagline": "Connect shipping services to an e-commerce checkout",
-      "description": "Shipping integration work covering carrier rate requests, package quantities, unit normalization, rate selection, and clear checkout feedback in a WordPress/WooCommerce environment.",
-      "technologies": ["PHP", "JavaScript", "WordPress", "WooCommerce", "REST APIs"],
-      "simulatedAddress": "shipping-demo.example"
+      "title": "WooCommerce Carrier Rate Integration",
+      "tagline": "Connect carrier services to an e-commerce checkout",
+      "description": "Shipping integration work for WooCommerce covering carrier rate requests, package quantities, unit normalization, rate selection, and checkout feedback. The implementation focuses on reliable request handling and clear UI states when rates are loading, available, or unavailable.",
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "WordPress",
+        "WooCommerce",
+        "REST APIs"
+      ],
+      "simulatedAddress": "shipping-demo.example",
+      "status": "Implemented with ongoing improvements",
+      "currentFocus": "Refining package handling, rate refresh behavior, and checkout notifications."
     },
     {
       "id": "communications",
       "number": "06",
-      "category": "Customer Communication Systems",
-      "title": "Customer Messaging & Workflow Automation",
-      "tagline": "Connect messaging workflows with operational data",
-      "description": "Customer communication workflows that integrate messaging services with application data, supporting message handling, status tracking, and operational automation.",
-      "technologies": ["ASP.NET WebForms", "VB.NET", "SQL Server", "JavaScript", "jQuery AJAX", "Twilio"],
-      "simulatedAddress": "messaging-demo.example"
+      "category": "Retailer Messaging & Engagement",
+      "title": "Customer Messaging & Workflow Platform",
+      "tagline": "Connect customer conversations with operational workflows",
+      "description": "A retailer-focused messaging and engagement platform built around web application workflows, customer conversations, outbound messaging, campaign tools, and operational reporting. Work includes maintaining a mature ASP.NET/VB.NET application, improving AJAX-driven interfaces and data-heavy views, and integrating messaging services with SQL-backed business data.",
+      "technologies": [
+        "ASP.NET WebForms",
+        "VB.NET",
+        "SQL Server",
+        "JavaScript",
+        "jQuery AJAX",
+        "Twilio",
+        "DataTables"
+      ],
+      "simulatedAddress": "messaging-demo.example",
+      "status": "Production system with ongoing improvements",
+      "currentFocus": "Incremental UI, reporting, integration, and performance improvements."
     }
   ],
   "skills": [
@@ -104,42 +162,114 @@
       "title": "Frontend",
       "description": "Responsive interfaces, browser interactions, and practical application UI.",
       "items": [
-        { "name": "HTML & CSS", "level": "Core", "context": "Semantic markup, responsive layouts, and maintainable styling" },
-        { "name": "JavaScript", "level": "Advanced", "context": "Asynchronous behavior, browser APIs, and data handling" },
-        { "name": "React", "level": "Project Work", "context": "Component-based interfaces and interactive frontend experiences" },
-        { "name": "jQuery & AJAX", "level": "Production", "context": "Incremental page updates and integration with existing web applications" }
+        {
+          "name": "HTML & CSS",
+          "level": "Core",
+          "context": "Semantic markup, responsive layouts, and maintainable styling"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Advanced",
+          "context": "Asynchronous behavior, browser APIs, and data handling"
+        },
+        {
+          "name": "React",
+          "level": "Project Work",
+          "context": "Component-based interfaces and interactive frontend experiences"
+        },
+        {
+          "name": "jQuery & AJAX",
+          "level": "Production",
+          "context": "Incremental page updates and integration with existing web applications"
+        }
       ]
     },
     {
       "title": "Backend & APIs",
       "description": "Application services, API integrations, and modernization of existing systems.",
       "items": [
-        { "name": "Python", "level": "Primary", "context": "Automation, data processing, and backend service development" },
-        { "name": "FastAPI", "level": "Project Work", "context": "Structured REST endpoints and request validation" },
-        { "name": "ASP.NET WebForms & VB.NET", "level": "Production", "context": "Maintaining and modernizing established business applications" },
-        { "name": "PHP", "level": "Practical", "context": "WordPress and WooCommerce extensions and integrations" },
-        { "name": "REST APIs & Webhooks", "level": "Core", "context": "Connecting third-party platforms and handling API responses" }
+        {
+          "name": "Python",
+          "level": "Primary",
+          "context": "Automation, data processing, and backend service development"
+        },
+        {
+          "name": "FastAPI",
+          "level": "Project Work",
+          "context": "Structured REST endpoints and request validation"
+        },
+        {
+          "name": "ASP.NET WebForms & VB.NET",
+          "level": "Production",
+          "context": "Maintaining and modernizing established business applications"
+        },
+        {
+          "name": "PHP",
+          "level": "Practical",
+          "context": "WordPress and WooCommerce extensions and integrations"
+        },
+        {
+          "name": "REST APIs & Webhooks",
+          "level": "Core",
+          "context": "Connecting third-party platforms and handling API responses"
+        }
       ]
     },
     {
       "title": "Databases & Data",
       "description": "Relational data, data transformation, and synchronization workflows.",
       "items": [
-        { "name": "SQL Server", "level": "Production", "context": "T-SQL queries, application data, and reporting" },
-        { "name": "PostgreSQL", "level": "Project Work", "context": "Relational schemas and backend application storage" },
-        { "name": "MySQL", "level": "Practical", "context": "E-commerce data and relational queries" },
-        { "name": "JSON & Data Processing", "level": "Core", "context": "Structured configuration, payload normalization, and feed processing" }
+        {
+          "name": "SQL Server",
+          "level": "Production",
+          "context": "T-SQL queries, application data, and reporting"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Project Work",
+          "context": "Relational schemas and backend application storage"
+        },
+        {
+          "name": "MySQL",
+          "level": "Practical",
+          "context": "E-commerce data and relational queries"
+        },
+        {
+          "name": "JSON & Data Processing",
+          "level": "Core",
+          "context": "Structured configuration, payload normalization, and feed processing"
+        }
       ]
     },
     {
       "title": "Integrations & Automation",
       "description": "E-commerce platforms, vendor feeds, messaging, and repeatable operational workflows.",
       "items": [
-        { "name": "Shopify APIs", "level": "Production", "context": "Product catalog and inventory synchronization" },
-        { "name": "WooCommerce APIs", "level": "Production", "context": "Product data and checkout/shipping integrations" },
-        { "name": "WordPress", "level": "Production", "context": "Platform customization and plugin integrations" },
-        { "name": "Twilio", "level": "Practical", "context": "Messaging integration and message status workflows" },
-        { "name": "Scheduled Jobs & Workers", "level": "Core", "context": "Automating repeatable processing tasks" }
+        {
+          "name": "Shopify APIs",
+          "level": "Production",
+          "context": "Product catalog and inventory synchronization"
+        },
+        {
+          "name": "WooCommerce APIs",
+          "level": "Production",
+          "context": "Product data and checkout/shipping integrations"
+        },
+        {
+          "name": "WordPress",
+          "level": "Production",
+          "context": "Platform customization and plugin integrations"
+        },
+        {
+          "name": "Twilio",
+          "level": "Practical",
+          "context": "Messaging integration and message status workflows"
+        },
+        {
+          "name": "Scheduled Jobs & Workers",
+          "level": "Core",
+          "context": "Automating repeatable processing tasks"
+        }
       ]
     }
   ],
@@ -149,28 +279,44 @@
       "title": "Understand",
       "tagline": "Clarify the requirement",
       "description": "Identify the business objective, current workflow, source data, constraints, and edge cases before changing the system.",
-      "deliverables": ["Problem definition", "Input and output mapping", "Constraints and edge cases"]
+      "deliverables": [
+        "Problem definition",
+        "Input and output mapping",
+        "Constraints and edge cases"
+      ]
     },
     {
       "number": "02",
       "title": "Design",
       "tagline": "Plan the data flow",
       "description": "Define how the frontend, backend, database, and external services interact, including validation and failure handling.",
-      "deliverables": ["Data-flow plan", "API and data contracts", "Error-handling approach"]
+      "deliverables": [
+        "Data-flow plan",
+        "API and data contracts",
+        "Error-handling approach"
+      ]
     },
     {
       "number": "03",
       "title": "Build",
       "tagline": "Implement in useful increments",
       "description": "Develop the UI, services, integrations, and automation in manageable pieces that can be tested independently.",
-      "deliverables": ["Frontend components", "Backend logic and integrations", "Automation workflows"]
+      "deliverables": [
+        "Frontend components",
+        "Backend logic and integrations",
+        "Automation workflows"
+      ]
     },
     {
       "number": "04",
       "title": "Verify",
       "tagline": "Test real-world behavior",
       "description": "Check expected results, invalid inputs, API failures, and operational edge cases before considering the work complete.",
-      "deliverables": ["Functional checks", "Edge-case testing", "Deployment notes"]
+      "deliverables": [
+        "Functional checks",
+        "Edge-case testing",
+        "Deployment notes"
+      ]
     }
   ],
   "careerOverview": {
@@ -220,7 +366,16 @@
         "Improve existing interfaces and automate repetitive operational tasks.",
         "Modernize synchronization workflows and develop Python-based services and supporting frontend tools."
       ],
-      "technologies": ["ASP.NET", "VB.NET", "JavaScript", "Python", "Shopify API", "SQL Server", "MySQL", "REST APIs"]
+      "technologies": [
+        "ASP.NET",
+        "VB.NET",
+        "JavaScript",
+        "Python",
+        "Shopify API",
+        "SQL Server",
+        "MySQL",
+        "REST APIs"
+      ]
     },
     {
       "id": "banking-support-csb",
@@ -240,7 +395,15 @@
         "Reviewed server health and application logs to investigate production issues.",
         "Followed incident, problem, and change management procedures."
       ],
-      "technologies": ["Windows Server", "Linux", "JBoss", "Apache Tomcat", "Oracle Database", "SQL", "ITIL"]
+      "technologies": [
+        "Windows Server",
+        "Linux",
+        "JBoss",
+        "Apache Tomcat",
+        "Oracle Database",
+        "SQL",
+        "ITIL"
+      ]
     },
     {
       "id": "banking-support-axis",
@@ -260,7 +423,13 @@
         "Performed system health checks, batch monitoring, and end-of-day processing verification.",
         "Documented support procedures and incident resolution steps."
       ],
-      "technologies": ["Linux", "Windows Server", "Web Services", "SQL", "Batch Schedulers"]
+      "technologies": [
+        "Linux",
+        "Windows Server",
+        "Web Services",
+        "SQL",
+        "Batch Schedulers"
+      ]
     },
     {
       "id": "insurance-support",
@@ -280,7 +449,28 @@
         "Assisted with user acceptance testing and regression testing for releases.",
         "Recorded troubleshooting findings and escalated issues when needed."
       ],
-      "technologies": ["Enterprise Web Applications", "SQL Server", "Windows Server", "Ticketing Systems", "UAT"]
+      "technologies": [
+        "Enterprise Web Applications",
+        "SQL Server",
+        "Windows Server",
+        "Ticketing Systems",
+        "UAT"
+      ]
     }
-  ]
+  ],
+  "projectInventoryNotes": {
+    "purpose": "Portfolio-safe summary of selected engineering work.",
+    "disclosure": "Internal product names and client-specific application names are omitted. Use fictional data in public demonstrations.",
+    "statusDefinitions": {
+      "In Progress": "Actively being developed or migrated.",
+      "Ongoing": "Existing workflow receiving continued improvements.",
+      "Implemented with ongoing improvements": "Core integration exists and is being refined.",
+      "Production system with ongoing improvements": "Established system with continuous maintenance and enhancement."
+    },
+    "exclusions": [
+      "Do not present proposed ticketing-system work as a completed production project.",
+      "Do not claim unverified performance metrics or business outcomes.",
+      "Do not expose customer records, credentials, private URLs, or proprietary application names."
+    ]
+  }
 }
