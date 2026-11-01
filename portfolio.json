@@ -139,10 +139,10 @@
     {
       "id": "communications",
       "number": "06",
-      "category": "Retailer Messaging & Engagement",
-      "title": "Customer Messaging & Workflow Platform",
-      "tagline": "Connect customer conversations with operational workflows",
-      "description": "A retailer-focused messaging and engagement platform built around web application workflows, customer conversations, outbound messaging, campaign tools, and operational reporting. Work includes maintaining a mature ASP.NET/VB.NET application, improving AJAX-driven interfaces and data-heavy views, and integrating messaging services with SQL-backed business data.",
+      "category": "Retailer Operations & E-commerce Platform",
+      "title": "Retailer Operations & Customer Engagement Platform",
+      "tagline": "A connected platform for customer conversations, messaging, catalogs, and retailer workflows",
+      "description": "A mature retailer-facing web platform that brings together day-to-day customer engagement and operational workflows. Its scope spans customer conversations and inbox management, outbound messages and broadcasts, SMS/MMS integrations, product and event catalog experiences, retailer settings and automated responses, appointment-related workflows, search and reporting views, and supporting database-backed tools. Engineering work includes maintaining and extending an established ASP.NET WebForms/VB.NET application, improving AJAX-driven interfaces and large data tables, integrating Twilio messaging, and connecting related e-commerce and retailer services. The portfolio describes the platform through its capabilities rather than exposing its internal product name or customer-specific details.",
       "technologies": [
         "ASP.NET WebForms",
         "VB.NET",
@@ -150,11 +150,13 @@
         "JavaScript",
         "jQuery AJAX",
         "Twilio",
-        "DataTables"
+        "DataTables",
+        "REST APIs",
+        "Shopify & WordPress integrations"
       ],
       "simulatedAddress": "messaging-demo.example",
       "status": "Production system with ongoing improvements",
-      "currentFocus": "Incremental UI, reporting, integration, and performance improvements."
+      "currentFocus": "Modernizing workflows, improving data-heavy interfaces and reporting, and extending integrations while preserving existing production behavior."
     },
     {
       "id": "media-variant-pipeline",
