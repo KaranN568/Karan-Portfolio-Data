@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-11-01",
+  "personalInfo": {
+    "name": "Karan Navle",
+    "monogram": "KN",
+    "role": "Application Developer",
+    "tagline": "DEVELOPER / AUTOMATION / INTEGRATIONS",
+    "heroHeading": "I build systems that make things work.",
+    "heroDescription": "I develop applications, APIs, integrations, and automation systems that solve real business problems.",
+    "aboutHeading": "Turning complexity into working software.",
+    "aboutDescription": "I work across frontend interfaces, backend services, databases, APIs, and automation—building practical software and modernizing existing systems.",
+    "principles": [
+      {
+        "number": "01",
+        "title": "Understand the problem",
+        "description": "Clarify the business goal, existing constraints, data sources, and edge cases before choosing an implementation."
+      },
+      {
+        "number": "02",
+        "title": "Design the solution",
+        "description": "Plan clear data flows, reliable integrations, and maintainable interfaces between systems."
+      },
+      {
+        "number": "03",
+        "title": "Build for reliability",
+        "description": "Validate inputs, handle failures deliberately, and make workflows observable and easier to maintain."
+      }
+    ],
+    "contact": {
+      "heading": "Have something worth building?",
+      "description": "Let's discuss an application, integration, or automation challenge.",
+      "email": "karannavle@gmail.com",
+      "github": "https://github.com/KaranN568",
+      "linkedin": "https://linkedin.com/in/karannavle",
+      "location": "Remote",
+      "availability": "Open to relevant engineering opportunities and projects"
+    }
+  },
+  "projects": [
+    {
+      "id": "ai-catalog",
+      "number": "01",
+      "category": "AI & Catalog Engineering",
+      "title": "AI Product Catalog Automation",
+      "tagline": "Structured catalog enrichment with AI-assisted workflows",
+      "description": "An application workflow exploring product categorization, product-data enrichment, and extraction of structured attributes from catalog information and imagery.",
+      "technologies": ["Python", "FastAPI", "REST APIs", "PostgreSQL", "JSON"],
+      "simulatedAddress": "catalog-demo.example"
+    },
+    {
+      "id": "product-sync",
+      "number": "02",
+      "category": "E-commerce Integrations",
+      "title": "Shopify & WordPress Product Synchronization",
+      "tagline": "Modernizing a product-sync service from VB.NET to Python",
+      "description": "A product and inventory synchronization service connecting e-commerce platforms and vendor data. The work includes moving established synchronization logic from a VB.NET application into Python, improving the service structure, and developing a frontend to manage and monitor synchronization workflows. Public-facing examples use fictional store and product data.",
+      "technologies": ["Python", "VB.NET", "Shopify API", "WordPress", "WooCommerce", "REST APIs", "JSON", "SQL"],
+      "simulatedAddress": "store-sync-demo.example"
+    },
+    {
+      "id": "pricing",
+      "number": "03",
+      "category": "Pricing & Workflow Automation",
+      "title": "Product Pricing Automation",
+      "tagline": "Rule-based pricing calculations and repeatable pricing workflows",
+      "description": "A pricing workflow that applies configurable product attributes and calculation rules to generate consistent prices, with a focus on traceable logic and maintainable configuration.",
+      "technologies": ["Python", "REST APIs", "PostgreSQL", "JSON", "Automation"],
+      "simulatedAddress": "pricing-demo.example"
+    },
+    {
+      "id": "inventory",
+      "number": "04",
+      "category": "Supply Chain & Data Synchronization",
+      "title": "Inventory & Vendor Synchronization",
+      "tagline": "Normalize vendor feeds and reconcile product data",
+      "description": "Data synchronization workflows for vendor catalogs and inventory feeds, including normalization, SKU matching, filtering, and updates across connected systems.",
+      "technologies": ["Python", "SQL Server", "REST APIs", "CSV", "JSON", "Background Jobs"],
+      "simulatedAddress": "inventory-demo.example"
+    },
+    {
+      "id": "shipping",
+      "number": "05",
+      "category": "Shipping & Platform Integrations",
+      "title": "Shipping Rate & Carrier Integrations",
+      "tagline": "Connect shipping services to an e-commerce checkout",
+      "description": "Shipping integration work covering carrier rate requests, package quantities, unit normalization, rate selection, and clear checkout feedback in a WordPress/WooCommerce environment.",
+      "technologies": ["PHP", "JavaScript", "WordPress", "WooCommerce", "REST APIs"],
+      "simulatedAddress": "shipping-demo.example"
+    },
+    {
+      "id": "communications",
+      "number": "06",
+      "category": "Customer Communication Systems",
+      "title": "Customer Messaging & Workflow Automation",
+      "tagline": "Connect messaging workflows with operational data",
+      "description": "Customer communication workflows that integrate messaging services with application data, supporting message handling, status tracking, and operational automation.",
+      "technologies": ["ASP.NET WebForms", "VB.NET", "SQL Server", "JavaScript", "jQuery AJAX", "Twilio"],
+      "simulatedAddress": "messaging-demo.example"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Frontend",
+      "description": "Responsive interfaces, browser interactions, and practical application UI.",
+      "items": [
+        { "name": "HTML & CSS", "level": "Core", "context": "Semantic markup, responsive layouts, and maintainable styling" },
+        { "name": "JavaScript", "level": "Advanced", "context": "Asynchronous behavior, browser APIs, and data handling" },
+        { "name": "React", "level": "Project Work", "context": "Component-based interfaces and interactive frontend experiences" },
+        { "name": "jQuery & AJAX", "level": "Production", "context": "Incremental page updates and integration with existing web applications" }
+      ]
+    },
+    {
+      "title": "Backend & APIs",
+      "description": "Application services, API integrations, and modernization of existing systems.",
+      "items": [
+        { "name": "Python", "level": "Primary", "context": "Automation, data processing, and backend service development" },
+        { "name": "FastAPI", "level": "Project Work", "context": "Structured REST endpoints and request validation" },
+        { "name": "ASP.NET WebForms & VB.NET", "level": "Production", "context": "Maintaining and modernizing established business applications" },
+        { "name": "PHP", "level": "Practical", "context": "WordPress and WooCommerce extensions and integrations" },
+        { "name": "REST APIs & Webhooks", "level": "Core", "context": "Connecting third-party platforms and handling API responses" }
+      ]
+    },
+    {
+      "title": "Databases & Data",
+      "description": "Relational data, data transformation, and synchronization workflows.",
+      "items": [
+        { "name": "SQL Server", "level": "Production", "context": "T-SQL queries, application data, and reporting" },
+        { "name": "PostgreSQL", "level": "Project Work", "context": "Relational schemas and backend application storage" },
+        { "name": "MySQL", "level": "Practical", "context": "E-commerce data and relational queries" },
+        { "name": "JSON & Data Processing", "level": "Core", "context": "Structured configuration, payload normalization, and feed processing" }
+      ]
+    },
+    {
+      "title": "Integrations & Automation",
+      "description": "E-commerce platforms, vendor feeds, messaging, and repeatable operational workflows.",
+      "items": [
+        { "name": "Shopify APIs", "level": "Production", "context": "Product catalog and inventory synchronization" },
+        { "name": "WooCommerce APIs", "level": "Production", "context": "Product data and checkout/shipping integrations" },
+        { "name": "WordPress", "level": "Production", "context": "Platform customization and plugin integrations" },
+        { "name": "Twilio", "level": "Practical", "context": "Messaging integration and message status workflows" },
+        { "name": "Scheduled Jobs & Workers", "level": "Core", "context": "Automating repeatable processing tasks" }
+      ]
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Understand",
+      "tagline": "Clarify the requirement",
+      "description": "Identify the business objective, current workflow, source data, constraints, and edge cases before changing the system.",
+      "deliverables": ["Problem definition", "Input and output mapping", "Constraints and edge cases"]
+    },
+    {
+      "number": "02",
+      "title": "Design",
+      "tagline": "Plan the data flow",
+      "description": "Define how the frontend, backend, database, and external services interact, including validation and failure handling.",
+      "deliverables": ["Data-flow plan", "API and data contracts", "Error-handling approach"]
+    },
+    {
+      "number": "03",
+      "title": "Build",
+      "tagline": "Implement in useful increments",
+      "description": "Develop the UI, services, integrations, and automation in manageable pieces that can be tested independently.",
+      "deliverables": ["Frontend components", "Backend logic and integrations", "Automation workflows"]
+    },
+    {
+      "number": "04",
+      "title": "Verify",
+      "tagline": "Test real-world behavior",
+      "description": "Check expected results, invalid inputs, API failures, and operational edge cases before considering the work complete.",
+      "deliverables": ["Functional checks", "Edge-case testing", "Deployment notes"]
+    }
+  ],
+  "careerOverview": {
+    "totalExperience": "Application development and production support experience",
+    "rolesCount": 4,
+    "education": "Bachelor of Science in Information Technology (B.Sc. IT)",
+    "coreDomains": [
+      "Web Application Development",
+      "E-commerce & API Integrations",
+      "Application Support",
+      "Database Queries & Data Processing"
+    ],
+    "highlights": [
+      {
+        "title": "Application Development",
+        "subtitle": "Web Applications & Internal Tools",
+        "description": "Building and maintaining web applications, operational dashboards, backend workflows, and database-backed features."
+      },
+      {
+        "title": "E-commerce Integrations",
+        "subtitle": "Shopify, WordPress & WooCommerce",
+        "description": "Connecting platforms, synchronizing product data, and automating catalog, inventory, and shipping workflows."
+      },
+      {
+        "title": "Production Support",
+        "subtitle": "Troubleshooting & Reliability",
+        "description": "Investigating application incidents, checking logs and data, supporting releases, and documenting repeatable procedures."
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "application-development",
+      "company": "Cloud Website Solutions",
+      "role": "Application Developer",
+      "duration": "April 2024 – Present",
+      "period": "Apr 2024 – Present",
+      "location": "Remote",
+      "type": "Full-time",
+      "isCurrent": true,
+      "domain": "Web Applications & E-commerce",
+      "highlightSummary": "Developing and maintaining web applications, operational dashboards, e-commerce integrations, and automation workflows.",
+      "responsibilities": [
+        "Develop and maintain web applications and internal operational dashboards.",
+        "Build e-commerce integrations using Shopify APIs for product catalog and inventory workflows.",
+        "Write and maintain SQL queries and database-backed application features.",
+        "Improve existing interfaces and automate repetitive operational tasks.",
+        "Modernize synchronization workflows and develop Python-based services and supporting frontend tools."
+      ],
+      "technologies": ["ASP.NET", "VB.NET", "JavaScript", "Python", "Shopify API", "SQL Server", "MySQL", "REST APIs"]
+    },
+    {
+      "id": "banking-support-csb",
+      "company": "CSB Bank",
+      "parentCompany": "Clover Infotech",
+      "role": "Technical Associate (L2 Support)",
+      "duration": "September 2022 – December 2023",
+      "period": "Sep 2022 – Dec 2023",
+      "location": "Enterprise client engagement",
+      "type": "Client Engagement",
+      "isCurrent": false,
+      "domain": "Core Banking Systems & Middleware",
+      "highlightSummary": "Supported business-critical banking and web applications, incident investigation, deployments, and production operations.",
+      "responsibilities": [
+        "Investigated application incidents and coordinated troubleshooting with development teams.",
+        "Supported application deployments, releases, and configuration changes.",
+        "Reviewed server health and application logs to investigate production issues.",
+        "Followed incident, problem, and change management procedures."
+      ],
+      "technologies": ["Windows Server", "Linux", "JBoss", "Apache Tomcat", "Oracle Database", "SQL", "ITIL"]
+    },
+    {
+      "id": "banking-support-axis",
+      "company": "Axis Bank",
+      "parentCompany": "Clover Infotech",
+      "role": "Application Support Specialist (L1–L2)",
+      "duration": "July 2021 – August 2022",
+      "period": "Jul 2021 – Aug 2022",
+      "location": "Enterprise client engagement",
+      "type": "Client Engagement",
+      "isCurrent": false,
+      "domain": "Retail Banking Portals & Transactions",
+      "highlightSummary": "Provided operational support for banking portals, transaction workflows, database exceptions, and scheduled jobs.",
+      "responsibilities": [
+        "Supported retail banking portals and transaction-processing applications.",
+        "Investigated transaction failures and database exceptions.",
+        "Performed system health checks, batch monitoring, and end-of-day processing verification.",
+        "Documented support procedures and incident resolution steps."
+      ],
+      "technologies": ["Linux", "Windows Server", "Web Services", "SQL", "Batch Schedulers"]
+    },
+    {
+      "id": "insurance-support",
+      "company": "IndiaFirst Life Insurance",
+      "parentCompany": "Clover Infotech",
+      "role": "Application Support Associate (L1)",
+      "duration": "January 2020 – June 2021",
+      "period": "Jan 2020 – Jun 2021",
+      "location": "Enterprise client engagement",
+      "type": "Client Engagement",
+      "isCurrent": false,
+      "domain": "Policy Administration & Agent Portals",
+      "highlightSummary": "Handled incident intake, initial troubleshooting, data checks, and release verification for insurance applications.",
+      "responsibilities": [
+        "Triaged reported issues in policy administration systems and customer-facing portals.",
+        "Used SQL to verify data and investigate transaction records.",
+        "Assisted with user acceptance testing and regression testing for releases.",
+        "Recorded troubleshooting findings and escalated issues when needed."
+      ],
+      "technologies": ["Enterprise Web Applications", "SQL Server", "Windows Server", "Ticketing Systems", "UAT"]
+    }
+  ]
+}
