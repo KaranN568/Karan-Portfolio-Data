@@ -155,6 +155,100 @@
       "simulatedAddress": "messaging-demo.example",
       "status": "Production system with ongoing improvements",
       "currentFocus": "Incremental UI, reporting, integration, and performance improvements."
+    },
+    {
+      "id": "media-variant-pipeline",
+      "number": "07",
+      "category": "E-commerce Catalog Engineering",
+      "title": "Product Variant & Image Pipeline",
+      "tagline": "Keep product images, variants, and SKUs aligned across platforms",
+      "description": "A catalog-processing workflow focused on mapping product images to the correct variants, handling SKU and size data, normalizing image formats, and preparing product assets for platform synchronization. The work addresses practical edge cases such as variants missing from source schemas, image replacement behavior, and consistent file paths.",
+      "technologies": [
+        "Python",
+        "WooCommerce",
+        "WordPress",
+        "Shopify APIs",
+        "JSON",
+        "Image Processing"
+      ],
+      "simulatedAddress": "catalog-pipeline-demo.example",
+      "status": "Ongoing",
+      "currentFocus": "Improving variant-to-image mapping, SKU handling, and synchronization consistency."
+    },
+    {
+      "id": "search-analytics",
+      "number": "08",
+      "category": "Search & Reporting",
+      "title": "Search Analytics & Reporting",
+      "tagline": "Turn search activity into useful operational insights",
+      "description": "A reporting workflow built around search-log data, including query analysis, report generation, and presenting results in an existing web application. The engineering work includes SQL-backed data retrieval and improving large-table interfaces with server-side processing and pagination.",
+      "technologies": [
+        "ASP.NET WebForms",
+        "VB.NET",
+        "SQL Server",
+        "JavaScript",
+        "DataTables",
+        "AJAX"
+      ],
+      "simulatedAddress": "search-analytics-demo.example",
+      "status": "In Progress",
+      "currentFocus": "Developing useful reports from search logs and keeping large result sets responsive."
+    },
+    {
+      "id": "performance-monitor",
+      "number": "09",
+      "category": "Observability & Developer Tooling",
+      "title": "Web Application Performance Monitor",
+      "tagline": "Capture page-load timings and make performance issues easier to investigate",
+      "description": "A lightweight monitoring concept for recording page lifecycle timings from an existing web application, writing structured performance records, and collecting them into a separate Python-powered view for review. The goal is to make slow navigation easier to investigate using consistent measurements rather than guesswork.",
+      "technologies": [
+        "ASP.NET",
+        "VB.NET",
+        "Python",
+        "Flask",
+        "JSON",
+        "Performance Monitoring"
+      ],
+      "simulatedAddress": "performance-monitor-demo.example",
+      "status": "Prototype / In Progress",
+      "currentFocus": "Connecting timing capture, structured log collection, and a review interface."
+    },
+    {
+      "id": "retailer-config-api",
+      "number": "10",
+      "category": "Backend Platform Engineering",
+      "title": "Retailer Configuration API",
+      "tagline": "Serve tenant-specific settings through a structured backend API",
+      "description": "A Python API service for extracting and serving retailer-specific configuration, with API-key verification and a database model built around store and user records. The work includes shaping configuration responses, preserving an existing settings contract, and separating retailer data so the correct settings can be loaded for each request.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "JSONB",
+        "REST APIs",
+        "API Authentication"
+      ],
+      "simulatedAddress": "retailer-config-demo.example",
+      "status": "In Progress",
+      "currentFocus": "Validating retailer resolution, settings retrieval, and consistent configuration behavior."
+    },
+    {
+      "id": "notification-center",
+      "number": "11",
+      "category": "Application UX & Notifications",
+      "title": "Retailer Notification Center",
+      "tagline": "Present recent, retailer-specific updates in a compact interface",
+      "description": "A notification-center feature concept that organizes notifications by retailer and date, with a compact panel designed to show a limited number of recent messages. The data structure and API integration are intended to keep the experience clear while preserving retailer-specific context.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "JSON",
+        "JavaScript",
+        "REST APIs"
+      ],
+      "simulatedAddress": "notifications-demo.example",
+      "status": "In Development",
+      "currentFocus": "Finalizing the notification data structure and recent-message presentation."
     }
   ],
   "skills": [
@@ -459,7 +553,7 @@
     }
   ],
   "projectInventoryNotes": {
-    "purpose": "Portfolio-safe summary of selected engineering work.",
+    "purpose": "Portfolio-safe summary of selected engineering work and distinct technical workstreams.",
     "disclosure": "Internal product names and client-specific application names are omitted. Use fictional data in public demonstrations.",
     "statusDefinitions": {
       "In Progress": "Actively being developed or migrated.",
@@ -471,6 +565,11 @@
       "Do not present proposed ticketing-system work as a completed production project.",
       "Do not claim unverified performance metrics or business outcomes.",
       "Do not expose customer records, credentials, private URLs, or proprietary application names."
+    ],
+    "guidance": [
+      "Projects can represent distinct engineering workstreams within larger systems when the technical problem is meaningfully different.",
+      "Statuses describe current work and should not imply completion where work is still in progress.",
+      "Do not claim unverified performance metrics or business outcomes."
     ]
   }
 }
